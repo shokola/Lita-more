@@ -16,8 +16,10 @@ module Lita
       def random_message(message, username)
         cadidates = [
           "#{username}、ねむいねー",
-          "ああね、#{message}ね",
+          "ああ、#{message}ね",
           "わかるわかる",
+          "#{message}！すごい！",
+          "#{username}、「突然の」ってつけてつぶやいてみ？",
           "仕事しようか #{username}"
         ]
         cadidates.shuffle.first
