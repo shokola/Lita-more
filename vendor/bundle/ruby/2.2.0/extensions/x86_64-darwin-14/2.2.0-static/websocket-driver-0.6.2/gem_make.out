@@ -1,0 +1,11 @@
+/Users/TerajimaShoko/.rbenv/versions/2.2.2/bin/ruby -r ./siteconf20150816-6272-1ncsyo2.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20150816-6272-1qq9t3s
